@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(32, 33, 37);
+  height: 100vh;
+}
+.longer {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #427496;
+  border-radius: 20px;
+  animation: load 1000ms infinite ease-in-out;
+  margin-left: 550px;
+}
+
+@keyframes load {
+  0% {
+    transform: scale(0.5) translateX(0px);
+  }
+  100% {
+    transform: scale(1) translate(200px);
+  }
+}
+.circle2 {
+  width: 30px;
+  height: 30px;
+  background-color: #42749675;
+  border-radius: 15px;
+  animation: load2 1000ms infinite ease-in-out;
+  animation-delay: 25ms;
+  margin-left: 550px;
+}
+
+@keyframes load2 {
+  0% {
+    transform: scale(0.5) translateX(0px);
+  }
+  100% {
+    transform: scale(1) translate(200px);
+  }
+}
+.circle3 {
+  width: 26px;
+  height: 26px;
+  background-color: #4274963d;
+  border-radius: 13px;
+  animation: load3 1000ms infinite ease-in-out;
+  animation-delay: 50ms;
+  margin-left: 550px;
+}
+
+@keyframes load3 {
+  0% {
+    transform: scale(0.5) translateX(0px);
+  }
+  100% {
+    transform: scale(1) translate(200px);
+  }
+}
